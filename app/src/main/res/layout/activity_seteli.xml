@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".seteli">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginStart="0dp"
+        app:cardCornerRadius="30dp"
+        android:outlineSpotShadowColor="@color/primary"
+        app:cardElevation="20dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/white"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:text="Set Eligibility"
+            android:textColor="@color/primary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+            android:textColor="@color/teal_700"
+            android:text="Candidate and Voter Eligibility Criteria" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="375dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#1A000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/round_back_dark_blue5_15"
+            android:textColor="@color/primary"
+            android:gravity="center"
+            android:text="Candidate" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp">
+
+            <TextView
+                android:id="@+id/cbranch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Branch: "
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="0dp"
+                android:text="CSE"
+
+                android:textColor="@color/grey" />
+
+            <CheckBox
+                android:id="@+id/cb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="25dp"
+                android:text="CSY"
+
+                android:textColor="@color/grey" />
+
+            <CheckBox
+                android:id="@+id/cb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="25dp"
+                android:text="ECE"
+
+                android:textColor="@color/grey" />
+
+            <CheckBox
+                android:id="@+id/cb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="0dp"
+                android:text="AI-DS"
+                android:textColor="@color/grey" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp">
+
+            <TextView
+                android:id="@+id/cyear"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Batch \nYear:"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cy1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="0dp"
+                android:text="2019"
+                android:textColor="@color/grey" />
+
+            <CheckBox
+                android:id="@+id/cy2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="25dp"
+                android:text="2020"
+                android:textColor="@color/grey" />
+
+            <CheckBox
+                android:id="@+id/cy3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="25dp"
+                android:text="2021"
+                android:textColor="@color/grey" />
+
+            <CheckBox
+                android:id="@+id/cy4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="0dp"
+                android:text="2022"
+                android:textColor="@color/grey" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="390dp"
+            android:background="@drawable/round_back_dark_blue5_15"
+            android:textColor="@color/primary"
+            android:gravity="center"
+            android:text="Voter" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="410dp">
+
+            <TextView
+                android:id="@+id/vbranch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Branch: "
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/vb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="0dp"
+                android:text="CSE"
+                android:textColor="@color/grey" />
+
+            <CheckBox
+                android:id="@+id/vb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="25dp"
+                android:text="CSY"
+                android:textColor="@color/grey" />
+
+            <CheckBox
+                android:id="@+id/vb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="25dp"
+                android:text="ECE"
+                android:textColor="@color/grey" />
+
+            <CheckBox
+                android:id="@+id/vb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="0dp"
+                android:text="AI-DS"
+                android:textColor="@color/grey" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="590dp">
+
+            <TextView
+                android:id="@+id/vyear"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Batch \nYear:"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/vy1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="0dp"
+                android:text="2019"
+                android:textColor="@color/grey" />
+
+            <CheckBox
+                android:id="@+id/vy2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="25dp"
+                android:text="2020"
+                android:textColor="@color/grey" />
+
+            <CheckBox
+                android:id="@+id/vy3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="25dp"
+                android:text="2021"
+                android:textColor="@color/grey" />
+
+            <CheckBox
+                android:id="@+id/vy4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="0dp"
+                android:text="2022"
+                android:textColor="@color/grey" />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/rg7891"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="200dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cgender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Gender: "
+
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cg1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="120dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="M"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cg2"
+                android:layout_width="118dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="200dp"
+                android:scaleX="1"
+                android:scaleY="1"
+
+                android:text="F"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rghjhj2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="240dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cbatch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Batch:   "
+
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cba1"
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="I"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cba2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="II"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cba3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="120dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="III"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="490dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vgender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Gender: "
+
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/vg1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="120dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="M"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/vg2"
+                android:layout_width="118dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="200dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="F"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rg2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="530dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vbatch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Batch:   "
+
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/vba1"
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="I"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/vba2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="II"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/vba3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="120dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:text="III"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/createBtn"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="665dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/round_back_primary_15"
+                android:enabled="true"
+                android:text="Next"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+
+
+
+    </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UnifiedVotingApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimaryVariant">#C3E6CC</item>
+        <item name="colorOnPrimary">#D8F4B7</item>
+        <item name="colorPrimary">@color/primary</item>
+
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorSecondaryVariant">#FFE79D</item>
+        <item name="colorOnSecondary">#B50E3D</item>
+
+
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+    </style>
+
+    <style name="Theme.UnifiedVotingApplication" parent="Base.Theme.UnifiedVotingApplication" />
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+    <style name="floating1" parent="Widget.Design.FloatingActionButton">
+        <item name = "android:foreground">
+            @drawable/img_1
+        </item>
+    </style>
+    <style name="SpecificCornerRounded">
+        <item name="cornerSizeTopRight">40dp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopLeft">40dp</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+    </style>
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
