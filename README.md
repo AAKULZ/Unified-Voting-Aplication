@@ -165,4 +165,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Thank you for using the Unified Voting Application! If you have any questions or need further assistance, please open an issue or contact us. Happy voting!
 
-![Happy Voting](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
+![Happy Voting](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGo5OGE0ZGVjcTQyMGNoMXl2eTNiemwya3FxYmJ2cWdvaTN2ZzgwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f8qLWDDf1kGSzQh8tN/giphy.webp)
