@@ -1,4 +1,4 @@
-<img src="https://github.com/AAKULZ/Unified-Voting-Aplication/blob/main/app/src/main/res/drawable/viconh.png" alt="Logo" width="100" height="50" align="left"> Unified Voting Application
+<img src="https://github.com/AAKULZ/Unified-Voting-Aplication/blob/main/app/src/main/res/drawable/viconh.png" alt="Logo" width="300" height="150" align="left"> Unified Voting Application
 
 Welcome to the Unified Voting Application repository! This Android application revolutionizes the electoral process by providing a secure, user-friendly platform for managing and participating in elections. Developed using Java and XML, it incorporates cutting-edge technologies such as multifactor authentication, RAID 6+ database security, and Firebase for storage and RDBMS.
 
